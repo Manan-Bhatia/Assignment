@@ -20,7 +20,7 @@ export default function LoginRegister() {
 
     return (
         <>
-            <section className="flex absolute inset-0 -z-50">
+            <section className="flex -z-50">
                 <div className="w-screen h-screen">
                     <div className="bg-black h-screen px-8 md:px-20 flex flex-col py-24 md:justify-center">
                         <fieldset className="flex justify-center md:gap-10">

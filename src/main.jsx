@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import About from "./About";
 import ContactUs from "./ContactUs";
 import LoginRegister from "./LoginRegister";
+import Search from "./Search";
 import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/login" element={<LoginRegister />} />
+                <Route path="/search" element={<Search />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>

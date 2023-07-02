@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
     return (
         <>
-            <section className="flex flex-col lg:flex-row absolute inset-0 -z-50">
+            <section className="flex flex-col lg:flex-row -z-50">
                 {/* left */}
                 <div className="w-screen h-screen lg:w-1/2 bg-black2 px-8 lg:px-20 flex flex-col justify-center">
 

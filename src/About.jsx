@@ -3,9 +3,9 @@ import React from "react";
 export default function About() {
     return (
         <>
-            <section className="flex flex-col md:flex-row absolute inset-0 -z-50">
+            <section className="flex flex-col md:flex-row -z-50">
                 {/* Left */}
-                <div className="w-full md:w-1/2 h-screen">
+                <div className="w-full md:w-1/2 min-h-screen max-h-full">
                     {/* upper */}
                     <div className="bg-black h-3/5 px-8 md:px-20 py-16 md:py-10 flex flex-col md:justify-end">
                         <h1
@@ -44,7 +44,7 @@ export default function About() {
                     </div>
                 </div>
                 {/* Right */}
-                <div className="w-full md:w-1/2 h-full">
+                <div className="w-full md:w-1/2 min-h-screen max-h-full">
                     {/* upper */}
                     <div className="bg-black md:bg-black2 h-1/2 md:h-3/5 px-8 md:px-20  py-0 md:py-10 md:flex flex-col justify-end">
                         <div>

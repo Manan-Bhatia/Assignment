@@ -2,9 +2,9 @@ import React from "react";
 
 export default function ContactUs() {
     return (
-        <section className="flex absolute inset-0 -z-50">
+        <section className="flex -z-50">
             <div className="w-screen h-screen">
-                <div className="bg-black h-screen px-8 md:px-20 flex flex-col justify-center">
+                <div className="bg-black h-full px-8 md:px-20 flex flex-col justify-center">
                     <h1
                         id="contact"
                         className="text-center uppercase font-bold text-4xl md:text-8xl text-black2"
