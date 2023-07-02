@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.selected:before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:3px;
+    bottom:-5px;
+    background-color: #15A9DE;
+}
